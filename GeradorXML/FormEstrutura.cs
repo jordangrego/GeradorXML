@@ -11,6 +11,7 @@ namespace GeradorXML
 {
     public partial class FormEstrutura : Form
     {
+        // comentario tosco.
         public FormEstrutura()
         {
             InitializeComponent();
