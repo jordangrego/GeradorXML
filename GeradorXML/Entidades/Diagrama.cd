@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GeradorXML.Entidades.Ficha">
+    <Position X="1" Y="2.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ADEiEgQCAEPEMEgAAYAIkUAAEAIgAgIACBQBAQEwBBg=</HashCode>
+      <FileName>Entidades\Ficha.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LatitudeDMS" />
+      <Property Name="LongitudeDMS" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ListaAeronaves" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GeradorXML.Entidades.Tripulante">
+    <Position X="13.75" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAEAAAA=</HashCode>
+      <FileName>Entidades\Tripulante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeradorXML.Entidades.MensagemInicial">
+    <Position X="1" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\MensagemInicial.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ListaFichas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GeradorXML.LatitudeDMS">
+    <Position X="5.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAQAAEBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LatitudeDMS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeradorXML.LongitudeDMS">
+    <Position X="5.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAABAAAAAAAAAAAAgAAAAACAAAAA=</HashCode>
+      <FileName>LongitudeDMS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GeradorXML.Entidades.Aeronave">
+    <Position X="8.25" Y="2.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACEQCEATAtQgIAACAAAMggAxCsAQAIACAQwRAIACADA=</HashCode>
+      <FileName>Entidades\Aeronave.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ListaTripulantes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
